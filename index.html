@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div class="calculator">
+      <input class="calculator-screen" type="text" value="0" disabled />
+      <div class="calculator-keys">
+        <table>
+          <tr>
+            <td colspan="2">
+              <button class="all-clear">AC</button>
+            </td>
+            <td>
+              <button class="percentage">%</button>
+            </td>
+            <td>
+              <button class="operator" value="/">&divide;</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="number" value="7">7</button>
+            </td>
+            <td>
+              <button class="number" value="8">8</button>
+            </td>
+            <td>
+              <button class="number" value="9">9</button>
+            </td>
+            <td>
+              <button class="operator" value="*">&times;</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="number" value="4">4</button>
+            </td>
+            <td>
+              <button class="number" value="5">5</button>
+            </td>
+            <td>
+              <button class="number" value="6">6</button>
+            </td>
+            <td>
+              <button class="operator" value="-">-</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="number" value="1">1</button>
+            </td>
+            <td>
+              <button class="number" value="2">2</button>
+            </td>
+            <td>
+              <button class="number" value="3">3</button>
+            </td>
+            <td>
+              <button class="operator" value="+">+</button>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <button class="number zero-btn" value="0">0</button>
+            </td>
+            <td>
+              <button class="decimal" value=".">.</button>
+            </td>
+            <td>
+              <button class="equal-sign">=</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
